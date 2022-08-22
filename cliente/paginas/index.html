@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <script src="/static/js/listarImagens.js" defer></script>
+    <title>Rosarien</title>
+  </head>
+  <body>
+    <div class="barranav">
+      <a class="titulo" href="/">Rosarien</a>
+      <input type="text" id="pesquisa" placeholder="Pesquisar">
+    </div>
+    <div class="submitform">
+      <p class="tituloform">Enviar imagem</p>
+      <form action="/api/enviar" method="post" enctype="multipart/form-data">
+        <label for="imagem">Imagem:</label>
+        <input type="file" name="imagem" />
+        <label for="nome">Legenda:</label>
+        <input type="text" name="nome" placeholder="Legenda da imagem">
+        <input type="submit" />
+      </form>
+    </div>
+    <div class="listagem"></div>
+  </body>
+</html>
