@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  margin: 0;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.barranav {
+  width: 95%;
+  height: 80px;
+  padding: 0px 2.5%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.barranav a.titulo {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: satisfy;
+}
+
+.barranav input {
+  margin-left: auto;
+  padding: 5px;
+  width: 260px;
+}
+
+.listagem {
+  width: 95%;
+  padding: 50px 2.5%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imagem {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  max-width: 340px;
+}
+
+.imagem img {
+  max-width: 95;
+  width: 100%;
+}
+
+.imagem video {
+  max-width: 95;
+  width: 100%;
+}
+
+form {
+  width: 95%;
+  padding: 40px 2.5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+form input {
+  cursor: pointer;
+}
+
+form label {
+  margin: 10px 0px;
+}
+
+form input[type="submit"] {
+  border: 0;
+  padding: 10px 40px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+form input[type="text"] {
+  cursor: text;
+}
+
+.submitform {
+  width: calc(95% - 80px);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.submitform p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
